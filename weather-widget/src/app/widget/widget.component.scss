@@ -1,0 +1,167 @@
+.widget-card {
+  position: absolute;
+  border-radius: 10px;
+  right: 15px;
+  color: aliceblue;
+  border: 3.75px solid rgb(96, 128, 148);
+  background: rgb(59, 184, 120) none repeat scroll 0% 0% / auto padding-box
+    border-box;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.style-1 {
+  margin-top: 0px;
+  background-image: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22.8571px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+}
+
+.subCard {
+  display: block;
+  height: 40px;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.cityName {
+  font-weight: 700;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  box-sizing: border-box;
+}
+
+.cityDetails {
+  float: left;
+  width: 275px;
+  height: 136.992px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.cityWeatherIcon {
+  background-size: cover;
+  width: 140px;
+  height: 136.992px;
+  left: 22px;
+  top: 19px;
+  position: absolute;
+  margin-top: 0px;
+  box-sizing: border-box;
+}
+
+.cityWeatherDescrp {
+  position: absolute;
+  top: 130px;
+  left: 40px;
+  font-weight: 700;
+  width: 100px;
+  text-align: center;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+}
+
+.cityWeatherDetails {
+  float: none;
+  height: 136.992px;
+  padding-top: 26px;
+  position: absolute;
+  right: 37px;
+  left: 423.164px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.cityWeatherWind {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 13px;
+  margin-top: 0px;
+  box-sizing: border-box;
+}
+
+.cityWeatherPrecip {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.cityWeatherPressure {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.cityWeatherTemp {
+  display: none;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.cityWeatherTemps {
+  position: absolute;
+  left: -135px;
+  top: 33px;
+  font-size: 32px;
+  display: block;
+  margin-bottom: 2px;
+  box-sizing: border-box;
+}
+
+.weekForecast {
+  clear: both;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.weekForecastObj {
+  display: inline-block;
+  width: 95px;
+  height: 106.992px;
+  position: relative;
+  margin-top: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.weekForecastDay {
+  font-weight: 600;
+  font-size: 12px;
+  display: block;
+  margin-top: 0px;
+  box-sizing: border-box;
+}
+
+.weekForecastIcon {
+  top: 19px;
+  left: 16px;
+  background-size: 60px;
+  width: 80px;
+  height: 70px;
+  position: absolute;
+  box-sizing: border-box;
+}
+
+.weekForecastTempRange {
+  position: absolute;
+  bottom: 11px;
+  width: 100%;
+  left: 2px;
+  font-size: 10px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+}

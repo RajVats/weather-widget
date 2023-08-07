@@ -1,0 +1,31 @@
+<div class="widget-card">
+  <div class="subCard">
+    <span class="cityName">{{ cityWeather?.city_name }}</span>
+  </div>
+  <div class="cityDetails">
+    <i class="cityWeatherIcon"><img [src]="cityWeather?.icon" alt="icon" /></i>
+    <span class="cityWeatherDescrp">{{
+      cityWeather?.weather.description
+    }}</span>
+  </div>
+  <div class="cityWeatherDetails">
+    <span class="cityWeatherWind">Wind: {{ cityWeather?.wind_spd }} m/s</span>
+    <span class="cityWeatherPrecip"
+      >Precip: {{ cityWeather?.precip }} mm/hr</span
+    >
+    <span class="cityWeatherPressure"
+      >Pressure: {{ cityWeather?.pres }} mb</span
+    >
+    <div class="cityWeatherTemp">Temperature:</div>
+    <span class="cityWeatherTemps">{{ cityWeather?.temp }}°C</span>
+  </div>
+  <div class="weekForecast">
+    <div class="weekForecastObj" *ngFor="let day of forecast">
+      <span class="weekForecastDay">{{ day.day }}</span
+      ><i><img class="weekForecastIcon" [src]="day.iconPath" alt="" /></i
+      ><span class="weekForecastTempRange"
+        >{{ day.max_temp }} °C / {{ day.min_temp }} °C</span
+      >
+    </div>
+  </div>
+</div>
